@@ -9,7 +9,7 @@ function createStartGrid() {
     for (let i = 0; i < gridSize; i++) {
         for (let j = 0; j < gridSize; j++) {
             squareDiv = document.createElement("div");
-            squareDiv.classList.add("squareDiv");
+            squareDiv.classList.add("defaultSquare");
             container.appendChild(squareDiv);
         }
     }
